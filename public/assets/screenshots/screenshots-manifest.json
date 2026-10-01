@@ -1,0 +1,62 @@
+[
+  {
+    "id": "home",
+    "filename": "home.png",
+    "route": "/home",
+    "viewport": "390x844",
+    "dpr": 2,
+    "browser": "Chrome/Edge Headless",
+    "captureDate": "2026-10-01T15:46:16.298Z",
+    "sampleState": "Dashboard with quick actions, recent ciphers, and batch status",
+    "origin": "web-emulated mobile viewport at 390x844 DPR 2",
+    "caption": "CipherGrid dashboard showing primary cipher actions, recent transformations, and workspace shortcuts."
+  },
+  {
+    "id": "workspace",
+    "filename": "workspace.png",
+    "route": "/workspace",
+    "viewport": "390x844",
+    "dpr": 2,
+    "browser": "Chrome/Edge Headless",
+    "captureDate": "2026-10-01T15:46:16.298Z",
+    "sampleState": "Caesar cipher shift 3 with sample input \"MEET AT THE GRID\"",
+    "origin": "web-emulated mobile viewport at 390x844 DPR 2",
+    "caption": "Workspace executing Caesar shift 3 on sample input with live validation, metrics, and character breakdown."
+  },
+  {
+    "id": "scan",
+    "filename": "scan.png",
+    "route": "/scan",
+    "viewport": "390x844",
+    "dpr": 2,
+    "browser": "Chrome/Edge Headless",
+    "captureDate": "2026-10-01T15:46:16.298Z",
+    "sampleState": "Camera / image upload interface with offline OCR recognition mode",
+    "origin": "web-emulated mobile viewport at 390x844 DPR 2",
+    "caption": "Optical scanner interface for capturing printed ciphertext, cropping, and running on-device recognition."
+  },
+  {
+    "id": "analyze",
+    "filename": "analyze.png",
+    "route": "/analyze",
+    "viewport": "390x844",
+    "dpr": 2,
+    "browser": "Chrome/Edge Headless",
+    "captureDate": "2026-10-01T15:46:16.298Z",
+    "sampleState": "Frequency analysis, Index of Coincidence, and Caesar brute-force ranking",
+    "origin": "web-emulated mobile viewport at 390x844 DPR 2",
+    "caption": "Cryptanalysis workbench calculating letter frequencies, n-grams, and ranked candidate solutions."
+  },
+  {
+    "id": "batch",
+    "filename": "batch.png",
+    "route": "/batch",
+    "viewport": "390x844",
+    "dpr": 2,
+    "browser": "Chrome/Edge Headless",
+    "captureDate": "2026-10-01T15:46:16.298Z",
+    "sampleState": "CSV / TXT multi-row batch transformation engine with column mapping",
+    "origin": "web-emulated mobile viewport at 390x844 DPR 2",
+    "caption": "Batch file processing interface for importing structured CSV/TXT lists, mapping parameters, and running transformations."
+  }
+]

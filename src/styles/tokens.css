@@ -1,0 +1,46 @@
+:root {
+  /* Brand color tokens verified from CipherGrid source */
+  --cg-canvas: #f2f0e9;
+  --cg-surface: #ffffff;
+  --cg-surface-2: #e8e5dc;
+  --cg-ink: #111318;
+  --cg-muted: #62656d;
+  --cg-line: #b8b6ae;
+  --cg-primary: #2347ff;
+  --cg-signal: #ff5a1f;
+  --cg-success: #177a4a;
+  --cg-danger: #c52929;
+  --cg-dark: #10141b;
+
+  /* Logo plaque & border tokens */
+  --cg-logo-plaque: #f7f3e9;
+  --cg-logo-border: #7e8793;
+
+  /* Grid lines & structural markers */
+  --cg-grid-line: rgba(17, 19, 24, 0.045);
+  --cg-radius: 2px;
+
+  /* Typography tokens */
+  --cg-font: 'Inter', Aptos, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+  --cg-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Consolas, monospace;
+
+  /* Sharp offset shadows */
+  --cg-shadow: 6px 6px 0 rgba(17, 19, 24, 0.11);
+  --cg-shadow-blue: 6px 6px 0 var(--cg-primary);
+  --cg-shadow-orange: -4px -4px 0 var(--cg-signal);
+  --cg-shadow-dark: 6px 6px 0 var(--cg-dark);
+
+  /* Animation easings */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-ui: cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* Dimensions & layout tokens */
+  --header-height: 72px;
+  --max-content-width: 1280px;
+}
+
+@media (max-width: 768px) {
+  :root {
+    --header-height: 64px;
+  }
+}
