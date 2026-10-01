@@ -81,10 +81,22 @@
         </p>
       </div>
 
-      <!-- Copyright & Zero-Tracking Declaration -->
+      <!-- Copyright & Developer Credit -->
       <div class="footer-bottom-row">
         <div class="footer-copyright">
-          © {{ currentYear }} CipherGrid. Open source software.
+          <span>© {{ currentYear }} CipherGrid. Open source software.</span>
+          <span class="footer-divider" aria-hidden="true">·</span>
+          <span class="footer-credit">
+            Developed with ❤️ by
+            <a
+              href="https://github.com/Sho-jii"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="author-link"
+            >
+              @Sho-jii
+            </a>
+          </span>
         </div>
         <div class="footer-privacy-badge mono-label">
           ZERO TRACKERS · NO COOKIES · OFFLINE FIRST
@@ -266,6 +278,34 @@ const currentYear = new Date().getFullYear();
 .footer-copyright {
   font-size: 13px;
   color: var(--cg-muted);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+}
+
+.footer-divider {
+  color: var(--cg-line);
+}
+
+.footer-credit {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.author-link {
+  color: var(--cg-ink);
+  font-family: var(--cg-mono);
+  font-weight: 700;
+  text-decoration: none;
+  border-bottom: 1px dotted var(--cg-muted);
+  transition: color 150ms ease, border-color 150ms ease;
+}
+
+.author-link:hover {
+  color: var(--cg-primary);
+  border-bottom: 1px solid var(--cg-primary);
 }
 
 .footer-privacy-badge {
